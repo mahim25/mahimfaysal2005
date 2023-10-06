@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0, 0.85);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding: 10%;
+}
+@media screen and (max-width :790px){
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero_sub2{
+    width: 10% !important;
+    scale: .7;
+  }
+}
+h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Dosis', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+.special1 {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.special1:hover {
+    color: #f1cc53;
+    font-size: 2em;
+}
+
+.samp1 {
+    color: white;
+    font-family: 'Dosis', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+.samp2 {
+    color: #FFBF00;
+}
+
+.p1 {
+    color: white;
+    font-size: large;
+    font-family: 'ADLaM Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.samp5 {
+    color: #FFBF00 !important;
+}
+
+.button {
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    margin: 0px;
+}
+
+.button1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #f1cc53;
+    border-radius: 7px;
+}
+
+.button1:hover {
+    background-color: #FFBF00;
+    opacity: 90%;
+    color: white;
+}
+
+.butn:hover {
+    color: #FFF !important;
+    opacity: 100% !important;
+}
+
+
+
+/* hero done */
+
+.aboutme{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* padding: 40px 0; */
+
+}
+.special3{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: 'Dosis';
+    font-weight: 200;
+    font-display: swap;
+  }
+  .special4{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: 'Dosis';
+    font-weight: 200;
+    font-display: swap;
+  }
+  .samp6{
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+    font-family: 'Dosis';
+    font-weight: 300;
+    font-display: swap;
+  }
+  .samp7{
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+    font-family: 'Dosis';
+    font-weight: 300;
+    font-display: swap;
+  }
+  
+  
+  .samp6{
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .samp6:hover{
+    color: #f19a53;
+    font-size: 2.5em;
+  }
+  .samp7{
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .samp7:hover{
+    color: #f19a53;
+    font-size: 2.5em;
+  }
+
+
+  h2{
+    position:relative;
+    width: 100%;
+    height:fit-content ;
+    text-decoration: underline black 2px;
+    text-align: center;
+
+  }
+
+ .me1{
+    width: 100%;
+    min-height: 30vh;
+    display: grid;
+    padding: 0 0px;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr 1fr;
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ .me2{
+    font-family: "ADLaM Display";
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width :790px){
+  .me3{
+  display: none;
+  }
+  .me2{
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 100%;
+    transform: translateX(-50%);
+  }
+
+
+
+}
+@media screen and (max-width :1120px){
+.hero_sub2{
+  scale:.61;
+}
+
+
+}
